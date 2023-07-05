@@ -1,18 +1,17 @@
 <script setup lang="ts">
-import { Space, Button } from "ant-design-vue";
 import { HomeOutlined, SettingOutlined } from "@ant-design/icons-vue";
 </script>
 
 <template>
   <div class="root">
-    <Space direction="vertical" align="center">
-      <Button shape="circle" type="text">
+    <a-space direction="vertical" align="center">
+      <a-button shape="circle" type="text">
         <home-outlined />
-      </Button>
-      <Button shape="circle" type="text">
+      </a-button>
+      <a-button shape="circle" type="text">
         <setting-outlined />
-      </Button>
-    </Space>
+      </a-button>
+    </a-space>
   </div>
 </template>
 

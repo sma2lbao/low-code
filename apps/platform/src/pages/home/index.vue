@@ -1,5 +1,12 @@
 <script setup lang="ts">
-import { DefaultLayout, Packeies, Menu, Config, Board, Topbar } from '@low-code/platform-tools';
+import {
+  DefaultLayout,
+  Packeies,
+  Menu,
+  Config,
+  Board,
+  Topbar,
+} from "@low-code/platform-tools";
 </script>
 
 <template>
@@ -23,8 +30,6 @@ import { DefaultLayout, Packeies, Menu, Config, Board, Topbar } from '@low-code/
       <Config />
     </template>
   </default-layout>
-
 </template>
 
-<style lang="less" scoped>
-</style>
+<style lang="less" scoped></style>

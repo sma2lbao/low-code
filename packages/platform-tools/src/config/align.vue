@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { RadioGroup, RadioButton } from "ant-design-vue";
 import type { RadioChangeEvent } from "ant-design-vue";
 import {
   AlignCenterOutlined,
@@ -44,15 +43,15 @@ const handleChange = (e: RadioChangeEvent) => {
 
 <template>
   <div>
-    <RadioGroup :value="props.align" @change="handleChange">
-      <RadioButton
+    <a-radio-group :value="props.align" @change="handleChange">
+      <a-radio-button
         v-for="alignConfig in alignConfigs"
         :value="alignConfig.align"
         :key="alignConfig.align"
       >
         <component :is="alignConfig.icon" />
-      </RadioButton>
-    </RadioGroup>
+      </a-radio-button>
+    </a-radio-group>
   </div>
 </template>
 

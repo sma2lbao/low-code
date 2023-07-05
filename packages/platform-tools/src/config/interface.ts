@@ -26,4 +26,6 @@ export interface Config {
 
 export enum ConfigCategory {
   Align = "align",
+  Size = "size",
+  Typography = "typography",
 }

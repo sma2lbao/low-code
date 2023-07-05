@@ -1,6 +1,6 @@
 {
-  "extends": "./tsconfig.base.json",
-  "include": ["src"],
+  "extends": ["./tsconfig.base.json"],
+  "include": ["src", "../../apps/platform/components.d.ts"],
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "dist"

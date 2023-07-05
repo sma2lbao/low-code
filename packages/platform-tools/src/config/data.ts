@@ -9,9 +9,11 @@ export const CONFIG_MENU = [
   {
     name: "size",
     label: "SIZE",
+    category: ConfigCategory.Size,
   },
   {
     name: "typography",
     label: "Typography",
+    category: ConfigCategory.Typography,
   },
 ];
