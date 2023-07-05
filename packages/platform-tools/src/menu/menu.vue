@@ -1,16 +1,17 @@
 <script setup lang="ts">
-import { Space, Button } from 'ant-design-vue';
-import {
-  HomeOutlined,
-  SettingOutlined,
-} from '@ant-design/icons-vue';
+import { Space, Button } from "ant-design-vue";
+import { HomeOutlined, SettingOutlined } from "@ant-design/icons-vue";
 </script>
 
 <template>
   <div class="root">
     <Space direction="vertical" align="center">
-      <Button type="text" shape="circle" ghost><home-outlined /></Button>
-      <Button type="text" shape="circle" ghost><setting-outlined /></Button>
+      <Button shape="circle" type="text">
+        <home-outlined />
+      </Button>
+      <Button shape="circle" type="text">
+        <setting-outlined />
+      </Button>
     </Space>
   </div>
 </template>

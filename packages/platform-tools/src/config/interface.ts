@@ -1,4 +1,4 @@
-enum Align {
+export enum Align {
   Start = "start",
   Center = "center",
   End = "end",
@@ -6,20 +6,24 @@ enum Align {
   Normal = "normal",
 }
 
-interface SizeConfig {
+export interface SizeConfig {
   width: number;
   height: number;
 }
 
-interface TypographyConfig {
+export interface TypographyConfig {
   color: string;
   fontSize: string;
 }
 
-interface AlignConfig {}
+export interface AlignConfig {}
 
-interface Config {
+export interface Config {
   align: AlignConfig;
   size: SizeConfig;
   typography: TypographyConfig;
+}
+
+export enum ConfigCategory {
+  Align = "align",
 }

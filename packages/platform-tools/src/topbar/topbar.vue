@@ -1,18 +1,17 @@
 <script setup lang="ts">
-import { Button } from 'ant-design-vue';
-import {
-  HomeOutlined,
-} from '@ant-design/icons-vue';
+import { Button } from "ant-design-vue";
+import { HomeOutlined } from "@ant-design/icons-vue";
 </script>
 
 <template>
   <div class="root">
     <div class="home-icon">
-      <Button type="text" shape="circle" ghost><home-outlined /></Button>
+      <Button shape="circle" type="text"><home-outlined /></Button>
     </div>
     <div class="project">
       logo
-      <div>项目名
+      <div>
+        项目名
         <span>相关tag</span>
       </div>
     </div>
